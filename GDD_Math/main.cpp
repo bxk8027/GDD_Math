@@ -1,7 +1,10 @@
 #include "pch.h"
 #include <iostream>
 #include "vector2.h"
+#include "vector3.h"
+#include "vector4.h"
 #include "matrix2.h"
+#include "matrix3.h"
 
 int main()
 {
@@ -24,6 +27,8 @@ int main()
 
     Matrix2 myMat1(twoByTwoMatrix);
     Matrix2 myMat2(twoByTwoMatrix);
+
+    myMat1.MatMul()
 
 
     return 0;

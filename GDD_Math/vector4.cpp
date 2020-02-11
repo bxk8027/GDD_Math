@@ -18,7 +18,7 @@ Vector4::Vector4(float x, float y, float z, float w)
 	this->localVec4[0] = x;
 	this->localVec4[1] = y;
 	this->localVec4[2] = z;
-	this->localVec4[2] = w;
+	this->localVec4[3] = w;
 
 	this->UpdateReferences();
 }

@@ -20,7 +20,7 @@ public:
 	float w;
 
 private:
-	float localVec4[3];
+	float localVec4[4];
 
 	void SetX(float);
 	float GetX();
