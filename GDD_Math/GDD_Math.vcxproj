@@ -138,23 +138,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="gdd_math.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="matrix2.cpp" />
-    <ClCompile Include="matrix3.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="vector2.cpp" />
-    <ClCompile Include="vector3.cpp" />
-    <ClCompile Include="vector4.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mat.h" />
-    <ClInclude Include="matrix2.h" />
-    <ClInclude Include="matrix3.h" />
+    <ClInclude Include="gdd_math.h" />
+    <ClInclude Include="matrix.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="vec.h" />
-    <ClInclude Include="vector2.h" />
-    <ClInclude Include="vector3.h" />
-    <ClInclude Include="vector4.h" />
+    <ClInclude Include="vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
