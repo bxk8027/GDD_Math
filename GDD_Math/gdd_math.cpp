@@ -33,7 +33,7 @@ GDD_Math::~GDD_Math() {}
 // Perform matrix multiplication between two 2x2 matrices
 int GDD_Math::matMul(matrix2x2* result, matrix2x2* matA, matrix2x2* matB)
 {
-    int returnValue = 1;
+    int returnValue = 0;
 
     try
     {
@@ -56,7 +56,7 @@ int GDD_Math::matMul(matrix2x2* result, matrix2x2* matA, matrix2x2* matB)
 // Perform matrix multiplication between two 3x3 matrices
 int GDD_Math::matMul(matrix3x3* result, matrix3x3* matA, matrix3x3* matB)
 {
-    int returnValue = 1;
+    int returnValue = 0;
 
     try
     {
@@ -84,7 +84,7 @@ int GDD_Math::matMul(matrix3x3* result, matrix3x3* matA, matrix3x3* matB)
 // Perform matrix multiplication between two 4x4 matrices
 int GDD_Math::matMul(matrix4x4* result, matrix4x4* matA, matrix4x4* matB)
 {
-    int returnValue = 1;
+    int returnValue = 0;
 
     try
     {
@@ -156,7 +156,7 @@ float GDD_Math::vecDot(vector4* vec4A, vector4* vec4B)
 // Calculate the Cross product between two vector 3s
 int GDD_Math::vecCross(vector3* result, vector3* vecA, vector3* vecB)
 {
-    int returnValue = 1;
+    int returnValue = 0;
 
     try
     {
